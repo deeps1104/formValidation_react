@@ -1,0 +1,28 @@
+body{
+  background-color: #e8e3d8;
+}
+
+
+  .form-style input{
+    height:50px;
+  border-bottom:1px solid #ebebeb;	
+  
+  }
+  .form-style input:focus{
+    border-bottom:2px solid gray;	
+    /* background-color:#efb11c;	 */
+  box-shadow:none;
+  outline:0;
+  }
+  
+  #btn1 {
+    width: 85%;
+    text-align: center;
+    height:50px;	
+  font-size: 22px;
+    
+  }
+  #btn2{
+    align-items: center;
+    text-align: center;
+  }
