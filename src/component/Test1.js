@@ -1,80 +1,7 @@
-// import React ,{Component}from 'react'
-// // import './Form.css'
-
-// export default class Form extends Component {
-//   constructor(){
-//         super()
-//         this.state ={
-//           Username:"",
-//           email:"" ,
-//           ContactNo:"",
-//           password:"",
-//           ConfirmPswd:""
-//         }
-//    }
-
-
-
-
-
-//    handleClick(e) {
-//     this.setState({Username:e.target.value})
-//    }
-//   render() {
-
-//     return (
-//       <div>
-//       <h1> grttjj{this.state.Username}</h1>
-
-//         <div class="box">
-//                 <div class="form">
-//                     <h2>Login</h2>
-//                     <div class="inputBox">
-                      
-//                         <input type="text" value={this.state.Username}  onChange={(e) => this.state.Username(e)}/>
-//                         <span>Username</span>
-//                     </div>
-    
-//                     <div class="inputBox">
-//                         <input type="email" required="required" value={this.state.email}/>
-//                         <span>Email</span>
-//                         <i></i>
-//                     </div>
-//                     <div class="inputBox">
-//                         <input type="number" required="required"  value={this.state.ContactNo}/>
-//                         <span>Contact Number</span>
-//                         <i></i>
-//                     </div>
-//                     <div class="inputBox">
-//                         <input type="password" required="required" value={this.state.password}/>
-//                         <span>Password</span>
-//                         <i></i>
-//                     </div>
-//                     <div class="inputBox">
-//                         <input type="password" required="required" value={this.state.ConfirmPswd}/>
-//                         <span>Confirm Password</span>
-//                         <i></i>
-//                     </div>
-//                     <div class="links">
-//                         <a href="#">Forgot password?</a>
-//                         <a href="#">Sign Up</a>
-//                     </div>
-//                     <a href="#"><input type="submit" value="Login" onClick={this.handleClick}/></a>
-//                 </div>
-//             </div>
-          
-//       </div>
-//       )
-//   }
-// }
-
-
-
-
 import React, { Component } from 'react'
 import girlImage from "../component/asssets/image1.png"
 import "./Form.css"
-export default class Form extends Component {
+export default class Test1 extends Component {
   constructor(props){
     super(props)
     this.state = {
@@ -85,6 +12,27 @@ export default class Form extends Component {
       confirmPswd:"",
     }
 }
+
+componentDidMount() {
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 handleUserInput = (e) => {
   let nameVal = /^[A-Za-z]+$/;
@@ -116,14 +64,11 @@ else {
 handleUserPassword =(e) => {
   const value = e.target.value;
   this.setState({password: value});
-    
   
 } 
 
 
 handleConfirmPswd =(e) => {
-  // if (this.state.password.length <6) {
-  //   alert("Password length should be between 6 and 18");}
   const value = e.target.value;
   this.setState({confirmPswd: value});
 
@@ -193,6 +138,7 @@ else if(userPassword.length<8)
   alert("Submitted Successfully");
   window.location.reload()
 return true
+
 }
 
   render() 
@@ -237,13 +183,6 @@ return true
       </div>
       </div>
       </div>
-  )
-
-
-
-
-
-      
-  }
+  ) }
 
 }
