@@ -11,3 +11,19 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.create-form label{
+  color: whitesmoke ;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 12px ;
+}
+
+.main{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #212121;
+  color: whitesmoke;
+  flex-direction: column;
+}

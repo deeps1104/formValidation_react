@@ -1,16 +1,19 @@
-body{
-  background-color: #e8e3d8;
+/* body {
+  background-color: #7286D3;
 }
 
 
+
+
+
   .form-style input{
-    height:50px;
+    height:55px;
   border-bottom:1px solid #ebebeb;	
+ 
   
   }
   .form-style input:focus{
-    border-bottom:2px solid gray;	
-    /* background-color:#efb11c;	 */
+    border-bottom:2px solid #87A2FB;	
   box-shadow:none;
   outline:0;
   }
@@ -25,4 +28,4 @@ body{
   #btn2{
     align-items: center;
     text-align: center;
-  }
+  } */
